@@ -43,4 +43,4 @@ Material:
     - _Specularity: 1
     - _TrueTiling: 2
     m_Colors:
-    - _Color: {r: 0.5588235, g: 0.4655918, b: 0.3657007, a: 1}
+    - _Color: {r: 1, g: 0.5707547, b: 0.82912487, a: 1}
