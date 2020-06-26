@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -12.39
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -151,7 +151,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.18249291
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -161,7 +161,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9832072
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -176,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -21.03
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -4702,6 +4702,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9bc26245cc56d5848930292f1739eac2, type: 2}
+    - target: {fileID: 2300000, guid: 8920164852daafb4ea1cbf5c4f29f9c6, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 8920164852daafb4ea1cbf5c4f29f9c6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
