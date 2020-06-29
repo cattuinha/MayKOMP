@@ -56,6 +56,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Móveis\3DTOYS\rotatecamera.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\ExampleSceneFree.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\JoystickFree.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\MSButtonFree.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\MSFPSControllerFree.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\MSOpenURL.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\MSSceneControllerFree.cs" />
+     <Compile Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\MSVehicleControllerFree.cs" />
      <Compile Include="Assets\Scripts\EmpurrarObjts.cs" />
      <Compile Include="Assets\Scripts\SC_FPSController.cs" />
      <Compile Include="Assets\Skybox e Sombras\BOXOPHOBIC\Utils\Scripts\SettingsUtils\SettingsData.cs" />
@@ -84,7 +91,10 @@
      <None Include="Assets\Móveis\3DTOYS\readme.txt" />
      <None Include="Assets\Móveis\Nice Materials Pack 2\Shaders\Cloth.shader" />
      <None Include="Assets\Móveis\Nice Materials Pack 2\Shaders\Carpet.shader" />
+     <None Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Update Notes.txt" />
+     <None Include="Assets\Blood decal pack\readme.txt" />
      <None Include="Assets\Móveis\Nice Materials Pack 2\Shaders\Concrete Wall.shader" />
+     <None Include="Assets\Móveis\MSVehicleSystem(FreeVersion)\Scripts\Shaders\SkidMarks.shader" />
      <None Include="Assets\Chão e parede\StoneWalls\readme.txt" />
      <None Include="Assets\Móveis\Nice Materials Pack 2\Shaders\Stained Leather.shader" />
  <Reference Include="UnityEngine">
