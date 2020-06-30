@@ -55,6 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Deformers Assets\Editor\CreateGridMD.cs" />
+     <Compile Include="Assets\Deformers Assets\Editor\Grid3DMD.cs" />
+     <Compile Include="Assets\Deformers Assets\Editor\LinkComponents.cs" />
      <Compile Include="Assets\Skybox e Sombras\BOXOPHOBIC\Utils\Scripts\BoxophobicUtils\Editor\GetBoxophobicFolder.cs" />
      <Compile Include="Assets\Skybox e Sombras\BOXOPHOBIC\Utils\Scripts\Constants\Editor\Constants.cs" />
      <Compile Include="Assets\Skybox e Sombras\BOXOPHOBIC\Utils\Scripts\SettingsUtils\Editor\LoadSettingsData.cs" />
