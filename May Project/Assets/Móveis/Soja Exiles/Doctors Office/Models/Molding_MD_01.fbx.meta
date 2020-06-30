@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: e0cd19f7dca525549814cdb78cbfdfcc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Door Frame_MD_01
+    100002: Door Frame_MD_02
+    100004: Door_MD_01.001
+    100006: Door_MD_02
+    100008: Door_MD_02.001
+    100010: Frame_MD_01
+    100012: Frame_MD_02
+    100014: Glass Window
+    100016: Glass Window.001
+    100018: Int_WallNew_01
+    100020: Knob.001
+    100022: MetPan
+    100024: MetPan.001
+    100026: Molding Base_MD_01_01
+    100028: Molding Base_MD_01_02
+    100030: Molding Base_MD_01_03
+    100032: Molding Base_MD_01_04
+    100034: Molding Crown_MD_01_01
+    100036: Molding Crown_MD_01_02
+    100038: Molding Crown_MD_01_03
+    100040: //RootNode
+    100042: Plane.001
+    100044: Plane.004
+    400000: Door Frame_MD_01
+    400002: Door Frame_MD_02
+    400004: Door_MD_01.001
+    400006: Door_MD_02
+    400008: Door_MD_02.001
+    400010: Frame_MD_01
+    400012: Frame_MD_02
+    400014: Glass Window
+    400016: Glass Window.001
+    400018: Int_WallNew_01
+    400020: Knob.001
+    400022: MetPan
+    400024: MetPan.001
+    400026: Molding Base_MD_01_01
+    400028: Molding Base_MD_01_02
+    400030: Molding Base_MD_01_03
+    400032: Molding Base_MD_01_04
+    400034: Molding Crown_MD_01_01
+    400036: Molding Crown_MD_01_02
+    400038: Molding Crown_MD_01_03
+    400040: //RootNode
+    400042: Plane.001
+    400044: Plane.004
+    2100000: No Name
+    2300000: Door Frame_MD_01
+    2300002: Door Frame_MD_02
+    2300004: Door_MD_01.001
+    2300006: Door_MD_02
+    2300008: Door_MD_02.001
+    2300010: Frame_MD_01
+    2300012: Frame_MD_02
+    2300014: Glass Window
+    2300016: Glass Window.001
+    2300018: Int_WallNew_01
+    2300020: Knob.001
+    2300022: MetPan
+    2300024: MetPan.001
+    2300026: Molding Base_MD_01_01
+    2300028: Molding Base_MD_01_02
+    2300030: Molding Base_MD_01_03
+    2300032: Molding Base_MD_01_04
+    2300034: Molding Crown_MD_01_01
+    2300036: Molding Crown_MD_01_02
+    2300038: Molding Crown_MD_01_03
+    2300040: Plane.001
+    2300042: Plane.004
+    3300000: Door Frame_MD_01
+    3300002: Door Frame_MD_02
+    3300004: Door_MD_01.001
+    3300006: Door_MD_02
+    3300008: Door_MD_02.001
+    3300010: Frame_MD_01
+    3300012: Frame_MD_02
+    3300014: Glass Window
+    3300016: Glass Window.001
+    3300018: Int_WallNew_01
+    3300020: Knob.001
+    3300022: MetPan
+    3300024: MetPan.001
+    3300026: Molding Base_MD_01_01
+    3300028: Molding Base_MD_01_02
+    3300030: Molding Base_MD_01_03
+    3300032: Molding Base_MD_01_04
+    3300034: Molding Crown_MD_01_01
+    3300036: Molding Crown_MD_01_02
+    3300038: Molding Crown_MD_01_03
+    3300040: Plane.001
+    3300042: Plane.004
+    4300000: Molding Base_MD_01_01
+    4300002: Molding Crown_MD_01_01
+    4300004: Molding Crown_MD_01_02
+    4300006: Molding Base_MD_01_02
+    4300008: Molding Base_MD_01_04
+    4300010: Molding Base_MD_01_03
+    4300012: Molding Crown_MD_01_03
+    4300014: Door Frame_MD_01
+    4300016: Door_MD_01.001
+    4300018: Knob.001
+    4300020: Frame_MD_02
+    4300022: Int_WallNew_01
+    4300024: Door Frame_MD_02
+    4300026: Door_MD_02
+    4300028: Glass Window
+    4300030: Plane.004
+    4300032: MetPan.001
+    4300034: Door_MD_02.001
+    4300036: Plane.001
+    4300038: Glass Window.001
+    4300040: MetPan
+    4300042: Frame_MD_01
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
