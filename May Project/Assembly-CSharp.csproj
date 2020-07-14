@@ -75,8 +75,6 @@
      <Compile Include="Assets\Mapas Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshFlareDeformer.cs" />
      <Compile Include="Assets\Mapas Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\SkinnedMeshSine.cs" />
      <Compile Include="Assets\Mapas Assets\Deformers Assets\DeformersScripts\Skinned Mesh Deformers\skinnedMeshRipple.cs" />
-     <Compile Include="Assets\Mapas Assets\Gato\Lowpoly Toon Cat Lite\Demo\Cat_Lite_Demo.cs" />
-     <Compile Include="Assets\Mapas Assets\Móveis\3DTOYS\rotatecamera.cs" />
      <Compile Include="Assets\Mapas Assets\Móveis\Soja Exiles\Doctors Office\Scenes\SceneSwitch.cs" />
      <Compile Include="Assets\Mapas Assets\Móveis\Soja Exiles\Doctors Office\Scripts &amp; Animations\FanRotation.cs" />
      <Compile Include="Assets\Mapas Assets\Móveis\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor.cs" />
