@@ -182,6 +182,7 @@
      <Compile Include="Assets\Mapas Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Mapas Assets\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Mapas Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\EmpurrarObjts.cs" />
      <Compile Include="Assets\Scripts\SC_FPSController.cs" />
      <None Include="Assets\Mapas Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
