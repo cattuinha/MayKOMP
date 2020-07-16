@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &54929277
+--- !u!1001 &13320340
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -188,6 +188,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 4018618442431274830, guid: 3eb776690e0cda3468b13536dc178e3c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4018618443151034370, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_CastShadows
@@ -198,52 +203,57 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 55
       objectReference: {fileID: 0}
+    - target: {fileID: 4018618443263095097, guid: 3eb776690e0cda3468b13536dc178e3c,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.13
+      objectReference: {fileID: 0}
     - target: {fileID: 4018618443263095102, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4018618443263095102, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.86
+      value: -0.192
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3eb776690e0cda3468b13536dc178e3c, type: 3}
---- !u!1 &54929278 stripped
+--- !u!1 &13320341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4018618443263095099, guid: 3eb776690e0cda3468b13536dc178e3c,
     type: 3}
-  m_PrefabInstance: {fileID: 54929277}
+  m_PrefabInstance: {fileID: 13320340}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &54929279 stripped
+--- !u!1 &13320342 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4018618443151034383, guid: 3eb776690e0cda3468b13536dc178e3c,
     type: 3}
-  m_PrefabInstance: {fileID: 54929277}
+  m_PrefabInstance: {fileID: 13320340}
   m_PrefabAsset: {fileID: 0}
---- !u!45 &54929280
+--- !u!45 &13320343
 Skybox:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54929278}
+  m_GameObject: {fileID: 13320341}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: 4cb731706c438404b8e9b90c862bf0ee, type: 2}
---- !u!114 &54929281
+--- !u!114 &13320344
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54929279}
+  m_GameObject: {fileID: 13320342}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b33175cdb8201d4089a872215e6ca36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instructions: {fileID: 883441839}
+  instructions: {fileID: 0}
 --- !u!1001 &179664304
 PrefabInstance:
   m_ObjectHideFlags: 0
