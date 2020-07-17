@@ -1,21 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour {
 
     [SerializeField]
     private Transform[] pictures;
 
-    [SerializeField]
-    private GameObject winText;
-
     public static bool youWin;
+    public float transitionTime = 1f;
+    public Animator transition;
 
     //Use this for initialization
     void Start ()
     {
-        winText.SetActive(false);
         youWin = false;
 
     }
@@ -24,14 +23,27 @@ public class GameControl : MonoBehaviour {
     void Update ()
     {
         if (pictures[0].rotation.z == 0 &&
-            pictures[1].rotation.z == 0 &&
-            pictures[2].rotation.z == 0 &&
-            pictures[3].rotation.z == 0 &&
-            pictures[4].rotation.z == 0 &&
-            pictures[6].rotation.z == 0)
+            pictures[1].rotation.z == 0)            
         {
+            Debug.Log("teste");
             youWin = true;
-            winText.SetActive(true);
+            LoadNextLevel();
         }
+    }
+
+    public void LoadNextLevel()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(levelIndex);
+
+
     }
 }
