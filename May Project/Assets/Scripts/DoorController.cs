@@ -16,7 +16,7 @@ public class DoorController : MonoBehaviour
             instructions.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
-                LoadNextLevel();
+               LoadNextLevel();
             }
             
             

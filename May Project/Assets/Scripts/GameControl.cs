@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using CameraFading;
 
 public class GameControl : MonoBehaviour {
 
@@ -11,11 +12,14 @@ public class GameControl : MonoBehaviour {
     public static bool youWin;
     public float transitionTime = 1f;
     public Animator transition;
+    
 
     //Use this for initialization
     void Start ()
     {
         youWin = false;
+        Cursor.visible = true;
+        Screen.lockCursor = false;
 
     }
    
@@ -27,13 +31,16 @@ public class GameControl : MonoBehaviour {
         {
             Debug.Log("teste");
             youWin = true;
-            LoadNextLevel();
+            Cursor.visible = false;
+                    
+            Invoke("LoadNextLevel", 5f);
         }
-    }
-
-    public void LoadNextLevel()
+    }   
+    
+    void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        Debug.Log("entrou no Load");
     }
 
     IEnumerator LoadLevel(int levelIndex)
