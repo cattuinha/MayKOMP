@@ -12,10 +12,12 @@ public class AlphaText : MonoBehaviour
     public Image texto;
     public float transitionTime = 1f;
     public Animator transition;
+    public AudioSource SFXVirandoPagina;
 
     // Use this for initialization
     void Start()
     {
+        SFXVirandoPagina.Play();
         Cursor.visible = false;
     }
 
@@ -23,8 +25,7 @@ public class AlphaText : MonoBehaviour
     void Update()
     {
 
-        Invoke("PressAny", 5f);
-        
+        Invoke("PressAny", 5f);      
 
     }
 
@@ -37,6 +38,7 @@ public class AlphaText : MonoBehaviour
 
         if (Input.anyKeyDown)
         {
+            BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
             LoadNextLevel();
         }
     }

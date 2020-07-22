@@ -12,31 +12,51 @@ public class GameControl : MonoBehaviour {
     public static bool youWin;
     public float transitionTime = 1f;
     public Animator transition;
-    
+    public AudioSource audioMontando;
+    public AudioSource audioCompleto;
+    public AudioSource SFXCompleto;
 
     //Use this for initialization
     void Start ()
     {
+        audioMontando.Play();
+        audioCompleto.Stop();
+        SFXCompleto.Stop();
         youWin = false;
         Cursor.visible = true;
         Screen.lockCursor = false;
 
     }
-   
+
     //Update is called once per frame
-    void Update ()
+    void Update()
+
     {
+
         if (pictures[0].rotation.z == 0 &&
-            pictures[1].rotation.z == 0)            
+            pictures[1].rotation.z == 0 &&
+            youWin == false) 
         {
-            Debug.Log("teste");
-            youWin = true;
-            Cursor.visible = false;
-                    
-            Invoke("LoadNextLevel", 5f);
+            FuncaoBonitinha();
         }
-    }   
-    
+    }
+
+
+    void FuncaoBonitinha()
+    {
+        youWin = true;
+        Cursor.visible = false;
+        audioMontando.Stop();
+        SFXCompleto.Play();
+        Invoke ("Socorro", 1.5f);                
+    }
+
+    void Socorro()
+    {
+        audioCompleto.Play();        
+        Invoke("LoadNextLevel", 5f);
+    }
+
     void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));

@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room 2.unity
     guid: 5a17d28ec4108e64d9e59b7181a8d7d1
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw 2-1.unity
+    guid: 6a77953cc4cb6534b9a1a0f801b573aa
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw 2-2.unity
+    guid: 2c80d6544a667204b95706b7008394a2
+  - enabled: 1
+    path: Assets/Scenes/Room 3.unity
+    guid: 6a5190acb19c7094784e4a6493cfd62c
   m_configObjects: {}
