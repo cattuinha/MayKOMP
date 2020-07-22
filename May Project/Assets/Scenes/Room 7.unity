@@ -3100,6 +3100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 1697669043}
+  transitionTime: 1
+  transition: {fileID: 0}
 --- !u!4 &924102416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5382168700179782608, guid: dff7d621a34fce64393a543185dd8595,
@@ -5784,7 +5786,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 20ed26266f4e00240a53eeb16510b7d4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.13
   m_Pitch: 1
   Loop: 1
   Mute: 0

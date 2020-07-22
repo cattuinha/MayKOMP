@@ -524,6 +524,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 1166685627}
+  transitionTime: 1
+  transition: {fileID: 0}
 --- !u!1001 &120519062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1767,7 +1769,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cbcac341d288eb34c8f1a34b50870006, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 1
   Mute: 0

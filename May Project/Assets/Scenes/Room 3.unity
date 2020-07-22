@@ -1532,7 +1532,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d62a627ab213b7047adbc7f0fb61ea7f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.24
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -4570,6 +4570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 177535656}
+  transitionTime: 1
+  transition: {fileID: 0}
 --- !u!1001 &1849379029
 PrefabInstance:
   m_ObjectHideFlags: 0

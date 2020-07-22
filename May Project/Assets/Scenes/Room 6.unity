@@ -270,7 +270,7 @@ PrefabInstance:
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.8
+      value: -17.05
       objectReference: {fileID: 0}
     - target: {fileID: 4018618442431274829, guid: 3eb776690e0cda3468b13536dc178e3c,
         type: 3}
@@ -393,6 +393,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   instructions: {fileID: 0}
+  transitionTime: 1
+  transition: {fileID: 0}
 --- !u!1 &70111116 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 9a88f24f8fcd2224e8e2d9d1458742a5,
@@ -669,7 +671,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 9d438f94b5883ee4ba374d6490c25abf, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.21
   m_Pitch: 1
   Loop: 1
   Mute: 0
