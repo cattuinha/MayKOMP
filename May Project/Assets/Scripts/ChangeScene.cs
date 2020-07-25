@@ -15,6 +15,7 @@ public class ChangeScene : MonoBehaviour
 
     public void Sair()
     {
+        Debug.Log("Saiu");
         Application.Quit();
     }
 
