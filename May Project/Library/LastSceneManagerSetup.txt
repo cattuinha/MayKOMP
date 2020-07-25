@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Jigsaw 2-2.unity
+- path: Assets/Scenes/Jigsaw 2-1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
