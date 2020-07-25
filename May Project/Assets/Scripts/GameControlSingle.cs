@@ -10,7 +10,7 @@ public class GameControlSingle : MonoBehaviour {
     [SerializeField]
     private Transform[] pictures;
 
-    public static bool youWin;
+    public static bool youWinSingle;
     public float transitionTime = 1f;
     
     public Animator transition;
@@ -20,16 +20,17 @@ public class GameControlSingle : MonoBehaviour {
 
     private CarregarClick carregarClick;
 
+
     //Use this for initialization
     void Start ()
     {
+        youWinSingle = false;
         audioMontando.Play();
         audioCompleto.Stop();
         SFXCompleto.Stop();
-        youWin = false;
         Cursor.visible = true;
         Screen.lockCursor = false;        
-        carregarClick = GameObject.Find("LevelLoader").GetComponentInChildren<CarregarClick>();        
+        carregarClick = GameObject.Find("LevelLoader").GetComponentInChildren<CarregarClick>();
     }
 
     //Update is called once per frame
@@ -39,7 +40,7 @@ public class GameControlSingle : MonoBehaviour {
 
         if (pictures[0].rotation.z == 0 &&
             pictures[1].rotation.z == 0 &&
-            youWin == false) 
+            youWinSingle == false) 
         {
             FuncaoBonitinha();                       
         }
@@ -48,7 +49,7 @@ public class GameControlSingle : MonoBehaviour {
 
     void FuncaoBonitinha()
     {
-        youWin = true;
+        youWinSingle = true;
         Cursor.visible = false;
         audioMontando.Stop();
         SFXCompleto.Play();
@@ -61,34 +62,36 @@ public class GameControlSingle : MonoBehaviour {
         carregarClick.AlterarCondicao();        
     }
 
-    /*void PressAny()
-    {
-        Debug.Log("entrou no PressAny");
-        count += speedFade * Time.deltaTime;
+    
 
-        texto.color = new Color(0.9f, 1f, 2f, Mathf.Sin(count) * 2f);
-        
-        if (Input.anyKeyDown)
+        /*void PressAny()
         {
-            BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
-            LoadNextLevel();
+            Debug.Log("entrou no PressAny");
+            count += speedFade * Time.deltaTime;
+
+            texto.color = new Color(0.9f, 1f, 2f, Mathf.Sin(count) * 2f);
+
+            if (Input.anyKeyDown)
+            {
+                BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
+                LoadNextLevel();
+            }
         }
+
+        public void LoadNextLevel()
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+            Debug.Log("entrou no Load");
+        }
+
+        IEnumerator LoadLevel(int levelIndex)
+        {
+            transition.SetTrigger("Start");
+
+            yield return new WaitForSeconds(transitionTime);
+
+            SceneManager.LoadScene(levelIndex);
+
+
+        }*/
     }
-
-    public void LoadNextLevel()
-    {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
-        Debug.Log("entrou no Load");
-    }
-
-    IEnumerator LoadLevel(int levelIndex)
-    {
-        transition.SetTrigger("Start");
-
-        yield return new WaitForSeconds(transitionTime);
-
-        SceneManager.LoadScene(levelIndex);
-
-
-    }*/
-}

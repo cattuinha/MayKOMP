@@ -18,15 +18,15 @@ public class BGSoundScript : MonoBehaviour {
 
     void Awake()
     {
-        if (instance != null && instance != this)
+        /*if (instance != null && instance != this)
         {
-            Destroy(this.gameObject);
+//            Destroy(this.gameObject);
             return;
         }
-        else
-        {
+        else*/
+        //{
             instance = this;
-        }
+        //}
 
         DontDestroyOnLoad(this.gameObject);
     }

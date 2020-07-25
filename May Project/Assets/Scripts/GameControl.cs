@@ -19,16 +19,15 @@ public class GameControl : MonoBehaviour {
     //Use this for initialization
     void Start ()
     {
+        youWin = false;
         audioMontando.Play();
         audioCompleto.Stop();
         SFXCompleto.Stop();
-        youWin = false;
         Cursor.visible = true;
         Screen.lockCursor = false;
 
     }
-
-    //Update is called once per frame
+                
     void Update()
 
     {
@@ -53,7 +52,7 @@ public class GameControl : MonoBehaviour {
 
     void Socorro()
     {
-        audioCompleto.Play();        
+        audioCompleto.Play();
         Invoke("LoadNextLevel", 5f);
     }
 
