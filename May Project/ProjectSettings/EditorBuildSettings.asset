@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room 4.unity
     guid: 2a3c160a2fb177f499c2cf969545683c
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw 4-1.unity
+    guid: afecfa20d0f1a6f4dbfbe0692a144b61
+  - enabled: 1
+    path: Assets/Scenes/Jigsaw 4-2.unity
+    guid: ff0ceeac2d555254da156dd9184490a8
+  - enabled: 1
+    path: Assets/Scenes/Room 5.unity
+    guid: be177b73636a6334cbebc89a09f9aa3c
   m_configObjects: {}
