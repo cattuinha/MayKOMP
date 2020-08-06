@@ -188,6 +188,7 @@
      <Compile Include="Assets\Scripts\BGSoundScript.cs" />
      <Compile Include="Assets\Scripts\CarregarClick.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
+     <Compile Include="Assets\Scripts\ContinueButton.cs" />
      <Compile Include="Assets\Scripts\DoorController.cs" />
      <Compile Include="Assets\Scripts\EmpurrarObjts.cs" />
      <Compile Include="Assets\Scripts\GameControl.cs" />
@@ -197,6 +198,7 @@
      <Compile Include="Assets\Scripts\SoundSettings.cs" />
      <Compile Include="Assets\Scripts\TouchRotate.cs" />
      <Compile Include="Assets\Scripts\TouchRotateSingle.cs" />
+     <Compile Include="Assets\Scripts\VoltarProMenu.cs" />
      <None Include="Assets\Mapas Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\Mapas Assets\Móveis\Laptop\StandardColorMask.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

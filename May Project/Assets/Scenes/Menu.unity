@@ -1287,6 +1287,7 @@ GameObject:
   - component: {fileID: 1340799543}
   - component: {fileID: 1340799542}
   - component: {fileID: 1340799541}
+  - component: {fileID: 1340799540}
   m_Layer: 5
   m_Name: ButtonContinue
   m_TagString: Untagged
@@ -1313,6 +1314,21 @@ RectTransform:
   m_AnchoredPosition: {x: -317, y: -28.7}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1340799540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340799538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44df7fa84a2270040b45130fc4d0c316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  continuar:
+  - {fileID: 2113936177}
+  - {fileID: 1340799538}
 --- !u!114 &1340799541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1355,7 +1371,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1340799542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1340799540}
+        m_MethodName: ContinueGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1340799542
 MonoBehaviour:
   m_ObjectHideFlags: 0
