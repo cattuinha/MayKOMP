@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 46158201}
   - component: {fileID: 46158200}
   m_Layer: 5
-  m_Name: 4-2
+  m_Name: 4-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4081ff07d26598240acef65abebce5be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41ca107f795c5814fb9e07e1f52fb30c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 265767319}
   - component: {fileID: 265767318}
   m_Layer: 5
-  m_Name: 2-1
+  m_Name: 2-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23472b85d1737354389c136ee9bc0f3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e34093da6ce6275418c11be8911ae00a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb494314f93544d42b18326a6c0a5098, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2fcf23f0de811a446ae154032d724338, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1491,7 +1491,7 @@ GameObject:
   - component: {fileID: 587054004}
   - component: {fileID: 587054003}
   m_Layer: 5
-  m_Name: 2-2
+  m_Name: 2-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1535,7 +1535,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 23472b85d1737354389c136ee9bc0f3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b237b3f03b86db45acfc59ef0666667, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1bb66208e276b0b499d31d402deefad0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 389aeb71e16e9c1488dc84c942e4397d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2281,7 +2281,7 @@ RectTransform:
   m_GameObject: {fileID: 738736829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65975004, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.071299, y: 1.477654, z: 1.623795}
   m_Children: []
   m_Father: {fileID: 307632945}
   m_RootOrder: 25
@@ -2328,7 +2328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5a439fff18a35334ca3d76dc7446532d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c8b03200cd4e5a4e82c30454cfdeec4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2355,7 +2355,7 @@ RectTransform:
   m_GameObject: {fileID: 780849829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65975004, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.0712988, y: 1.4776537, z: 1.6237952}
   m_Children: []
   m_Father: {fileID: 307632945}
   m_RootOrder: 16
@@ -2910,7 +2910,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 02c93ab47b59c5b4a8426f579f2a1a2b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 20ea849bdb7403a40a1a6fc9ac8fad43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2937,7 +2937,7 @@ RectTransform:
   m_GameObject: {fileID: 942529259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65975004, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.071299, y: 1.477654, z: 1.623795}
   m_Children: []
   m_Father: {fileID: 307632945}
   m_RootOrder: 22
@@ -3365,7 +3365,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6ec1fcf2f177464ea5771d9a50eea08, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 25b51e7b5aeccd245a443e3d92059908, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3392,7 +3392,7 @@ RectTransform:
   m_GameObject: {fileID: 1040532431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65975004, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.071299, y: 1.477654, z: 1.623795}
   m_Children: []
   m_Father: {fileID: 307632945}
   m_RootOrder: 9
@@ -4337,7 +4337,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d63713939e9ba974698c37cb9ac6ab98, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d244d658f4812a04c87a71173853691e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4364,7 +4364,7 @@ RectTransform:
   m_GameObject: {fileID: 1453212796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.65975004, y: 0.91, z: 1}
+  m_LocalScale: {x: 1.071299, y: 1.477654, z: 1.623795}
   m_Children: []
   m_Father: {fileID: 307632945}
   m_RootOrder: 19
@@ -5177,7 +5177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb494314f93544d42b18326a6c0a5098, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 29d2053dbaf405d42a087d994e8b2109, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5207,7 +5207,7 @@ GameObject:
   - component: {fileID: 1678575237}
   - component: {fileID: 1678575236}
   m_Layer: 5
-  m_Name: 4-1
+  m_Name: 4-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5232,7 +5232,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4081ff07d26598240acef65abebce5be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5df2940b53c22846ad75c275c18d126, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5967,7 +5967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1945607259
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5978,9 +5978,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3bcf3ca0a6d6b98418a92830f68a69dd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e0ae09f0337144444aa9af5bcf12f9d0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 0.23
   m_Pitch: 1
   Loop: 1
   Mute: 0
