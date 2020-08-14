@@ -29,7 +29,7 @@ public class GameControl : MonoBehaviour {
     }
                 
     void Update()
-
+        //PARTE DA KAKA BONITA LINDA
     {
 
         if (pictures[0].rotation.z == 0 &&
@@ -53,7 +53,7 @@ public class GameControl : MonoBehaviour {
     void Socorro()
     {
         audioCompleto.Play();
-        Invoke("LoadNextLevel", 5f);
+        Invoke("LoadNextLevel", 7f);
     }
 
     void LoadNextLevel()
@@ -69,7 +69,6 @@ public class GameControl : MonoBehaviour {
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(levelIndex);
-
 
     }
 }

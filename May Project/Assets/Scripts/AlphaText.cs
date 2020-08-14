@@ -25,7 +25,7 @@ public class AlphaText : MonoBehaviour
     void Update()
     {
 
-        Invoke("PressAny", 5f);      
+        Invoke("PressAny", 7f);      
 
     }
 
@@ -38,7 +38,10 @@ public class AlphaText : MonoBehaviour
 
         if (Input.anyKeyDown)
         {
-            BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
+            if (BGSoundScript.Instance)
+            {
+                BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
+            }               
             LoadNextLevel();
         }
     }

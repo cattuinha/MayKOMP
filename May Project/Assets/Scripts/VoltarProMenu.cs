@@ -11,7 +11,7 @@ public class VoltarProMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (BGSoundScript.Instance.gameObject.GetComponent<AudioSource>())
+            if (BGSoundScript.Instance)
             {
                 BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
             }

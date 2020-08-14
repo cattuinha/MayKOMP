@@ -24,7 +24,7 @@ public class CarregarClick : MonoBehaviour
     void Update()
     {
         if (condicao)
-        Invoke("PressAny", 4f);
+        Invoke("PressAny", 7f);
 
     }
 
@@ -38,7 +38,7 @@ public class CarregarClick : MonoBehaviour
 
         if (Input.anyKeyDown)
         {
-            BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();
+            BGSoundScript.Instance.gameObject.GetComponent<AudioSource>().Stop();            
             LoadNextLevel();
         }
     }
