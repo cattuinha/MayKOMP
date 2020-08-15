@@ -5,9 +5,7 @@ using UnityEngine;
 public class BGSoundScript : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
-		
-	}
+	
 
     //Play Global
     private static BGSoundScript instance = null;
@@ -16,7 +14,7 @@ public class BGSoundScript : MonoBehaviour {
         get { return instance; }
     }
 
-    void Awake()
+    void Start()
     {
         /*if (instance != null && instance != this)
         {

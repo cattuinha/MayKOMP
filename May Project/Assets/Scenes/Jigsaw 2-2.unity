@@ -693,7 +693,7 @@ MonoBehaviour:
   texto: {fileID: 1992832426}
   transitionTime: 1
   transition: {fileID: 811102199}
-  SFXVirandoPagina: {fileID: 0}
+  SFXVirandoPagina: {fileID: 202717163}
 --- !u!114 &1992832426
 MonoBehaviour:
   m_ObjectHideFlags: 0

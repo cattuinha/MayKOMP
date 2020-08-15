@@ -32,7 +32,7 @@ public class GameControl : MonoBehaviour {
         //PARTE DA KAKA BONITA LINDA
     {
 
-        if (pictures[0].rotation.z == 0 &&
+        if (pictures[0].rotation.z == 0 /*&&
             pictures[1].rotation.z == 0 &&
             pictures[2].rotation.z == 0 &&
             pictures[3].rotation.z == 0 &&
@@ -175,7 +175,7 @@ public class GameControl : MonoBehaviour {
             pictures[140].rotation.z == 0 &&
             pictures[141].rotation.z == 0 && 
             pictures[142].rotation.z == 0 &&
-            pictures[143].rotation.z == 0 &&
+            pictures[143].rotation.z == 0*/ &&
             youWin == false) 
         {
             FuncaoBonitinha();
