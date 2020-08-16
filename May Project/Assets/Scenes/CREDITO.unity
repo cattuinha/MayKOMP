@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionTime: 1
   transition: {fileID: 1804468588}
-  tempoCredito: 8
+  tempoCredito: 5
 --- !u!4 &1170062898
 Transform:
   m_ObjectHideFlags: 0

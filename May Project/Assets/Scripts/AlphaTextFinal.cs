@@ -13,6 +13,7 @@ public class AlphaTextFinal : MonoBehaviour
     public float transitionTime = 1f;
     public Animator transition;
     public string nomeDaCena;
+    public GameObject mayTexto;
 
     // Use this for initialization
     void Start()
@@ -23,11 +24,15 @@ public class AlphaTextFinal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Invoke("MayTexto", 2f);
         Invoke("PressAny2", 5f);      
 
     }
 
+    void MayTexto()
+    {
+        mayTexto.SetActive(true);
+    }
 
     void PressAny2()
     {
