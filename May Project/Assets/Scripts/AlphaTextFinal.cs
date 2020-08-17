@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Diagnostics;
+using Debug = UnityEngine.Debug;
 
 public class AlphaTextFinal : MonoBehaviour
 {
@@ -13,26 +15,29 @@ public class AlphaTextFinal : MonoBehaviour
     public float transitionTime = 1f;
     public Animator transition;
     public string nomeDaCena;
-    public GameObject mayTexto;
+    //public GameObject mayTexto;
+
 
     // Use this for initialization
     void Start()
     {        
         Cursor.visible = false;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        Invoke("MayTexto", 2f);
+
+        
         Invoke("PressAny2", 5f);      
 
     }
 
-    void MayTexto()
+    /*void MayTexto()
     {
         mayTexto.SetActive(true);
-    }
+    }*/
 
     void PressAny2()
     {
@@ -47,6 +52,7 @@ public class AlphaTextFinal : MonoBehaviour
             LoadNextLevel2();
         }
     }
+
     public void LoadNextLevel2()
     {
         SceneManager.LoadScene(nomeDaCena);
