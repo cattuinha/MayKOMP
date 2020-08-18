@@ -30,7 +30,7 @@ public class AlphaTextFinal : MonoBehaviour
     {
 
         
-        Invoke("PressAny2", 5f);      
+        Invoke("PressAny2", 17.5f);      
 
     }
 

@@ -7,32 +7,35 @@ using Debug = UnityEngine.Debug;
 
 public class VAIFILHADAPUTA : MonoBehaviour
 {
-    private float count;
-    public float speedFade;
-    private float i = 0f;
-
-    public SpriteRenderer sprite;
+   
+    SpriteRenderer rend;
 
 
-
-  
-    // Update is called once per frame
-    void Update()
+    void Start()
     {
-        Invoke("KakaLinda", 2f);
+        rend = GetComponent<SpriteRenderer>();
+        Color c = rend.material.color;
+        c.a = 0f;
+        rend.material.color = c;
+        Invoke("ComecarCorotina", 8.5f);
+    }
+  
+    // Update is called once per frame    
 
+    void ComecarCorotina()
+    {
+        StartCoroutine("KakaLinda");
     }
 
-
-    void KakaLinda()
+    IEnumerator KakaLinda()
     {
-        count += speedFade * Time.deltaTime;
-
-        sprite.color = new Color(1f, 1f, 1f, 0f);
-        
-        for(i; i < count; i += 0.1f)
+                
+        for(float f = 0f; f <= 1; f += 0.001f)
         {
-            sprite.color = new Color(1f, 1f, 1f, i);
+            Color c = rend.material.color;
+            c.a = f;
+            rend.material.color = c;
+            yield return new WaitForSeconds(0.001f);
         } 
     }
 
