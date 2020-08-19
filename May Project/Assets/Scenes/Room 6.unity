@@ -23021,6 +23021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 2506995324554908729, guid: 5c5afbf6d2427f6479317c3f7d624f18,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2506995324554908730, guid: 5c5afbf6d2427f6479317c3f7d624f18,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33061,7 +33066,7 @@ PrefabInstance:
     - target: {fileID: 8003686958964224578, guid: 849ee217e78510041a9d3afe8ed84914,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 2.29404
       objectReference: {fileID: 0}
     - target: {fileID: 8003686958964224578, guid: 849ee217e78510041a9d3afe8ed84914,
         type: 3}
@@ -33107,6 +33112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003686958964224578, guid: 849ee217e78510041a9d3afe8ed84914,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 29.14
       objectReference: {fileID: 0}
     - target: {fileID: 8003686958964224604, guid: 849ee217e78510041a9d3afe8ed84914,
         type: 3}
