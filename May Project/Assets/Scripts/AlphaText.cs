@@ -25,7 +25,7 @@ public class AlphaText : MonoBehaviour
     void Update()
     {
 
-        Invoke("PressAny", 7f);      
+        Invoke("PressAny", 9f);      
 
     }
 

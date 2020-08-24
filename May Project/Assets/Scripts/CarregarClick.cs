@@ -24,7 +24,7 @@ public class CarregarClick : MonoBehaviour
     void Update()
     {
         if (condicao)
-        Invoke("PressAny", 7f);
+        Invoke("PressAny", 11f);
 
     }
 

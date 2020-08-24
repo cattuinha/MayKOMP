@@ -434,33 +434,6 @@ TextureImporter:
   - first:
       213: -7861409835149672369
     second: catpuzzle3_143
-  - first:
-      213: -7083587446411666132
-    second: catpuzzle3_144
-  - first:
-      213: -4160884863629174973
-    second: catpuzzle3_145
-  - first:
-      213: -4916505708364513458
-    second: catpuzzle3_146
-  - first:
-      213: -246548299767110080
-    second: catpuzzle3_147
-  - first:
-      213: -588438195009403521
-    second: catpuzzle3_148
-  - first:
-      213: -1716070426810905640
-    second: catpuzzle3_149
-  - first:
-      213: 5470944729133745481
-    second: catpuzzle3_150
-  - first:
-      213: 7725081200610851254
-    second: catpuzzle3_151
-  - first:
-      213: -9047957493634904205
-    second: catpuzzle3_152
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -3572,7 +3545,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ec6c2afe71710dd4ca293397c4162c8e
     internalID: 0
     vertices: []
     indices: 
